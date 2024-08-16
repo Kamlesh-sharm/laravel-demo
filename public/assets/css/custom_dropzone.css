@@ -1,0 +1,29 @@
+/* image table preview for dropzone edit form start */
+#img-table .table-row {
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#img-table .table-row td i {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  color: #ff3737;
+  background: #fff;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#img-table .table-row td {
+  padding: 0px !important;
+}
+
+.dropzone:hover {
+  background: transparent !important;
+}
+
+/* image table preview for dropzone edit form end */

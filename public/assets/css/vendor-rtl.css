@@ -1,0 +1,12 @@
+.author-area .product-filter select::after, .author-area .product-filter .nice-select::after {
+  right: unset;
+  left: 5px;
+}
+
+body {
+  text-align: right;
+}
+
+.single-room .room-desc .room-cat {
+  left: unset !important;
+}/*# sourceMappingURL=vendor-rtl.css.map */

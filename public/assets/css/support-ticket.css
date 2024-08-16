@@ -1,0 +1,129 @@
+/* support ticket css start */
+.support-ticket-area {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.note-editor .note-toolbar .note-btn-group .note-btn.btn-light {
+  color: #212529;
+}
+
+.dashboard-area .user-profile-details .account-info .main-info {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+}
+
+.main-info .subject {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-area .user-profile-details .account-info .main-info .subject h5 {
+  padding-top: 5px;
+}
+
+.dashboard-area .user-profile-details .account-info .main-info .subject div .date-time {
+  font-size: 75%;
+  font-weight: 700;
+  margin-inline-start: 10px;
+}
+
+.dashboard-area .user-profile-details .account-info .main-info .attachment a i {
+  margin-inline-end: 10px;
+}
+
+.messages {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.messages::-webkit-scrollbar {
+  width: 5px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background: #6c757d;
+  border-radius: 20px;
+}
+
+.single-message {
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  max-width: 98%;
+}
+
+.single-message:last-child {
+  margin-bottom: 0px;
+}
+
+.single-message .user-details {
+  display: flex;
+  align-items: flex-start;
+}
+
+.single-message .user-details img {
+  width: 100%;
+}
+
+.single-message .user-img {
+  overflow: hidden;
+  width: 65px;
+  margin-inline-end: 24px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  flex: 0 0 auto;
+}
+
+.single-message .user-infos span {
+  display: block;
+}
+
+.single-message .user-infos span {
+  color: #666666;
+  font-weight: 400;
+}
+
+.single-message .user-infos span.badge {
+  color: #fff;
+}
+
+.single-message .user-infos span.type {
+  margin: 8px 0px;
+}
+
+.single-message .message {
+  margin-top: 10px;
+  color: #666666;
+}
+
+.single-message .reply-download-btn {
+  margin-top: 10px;
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.single-message .reply-download-btn i {
+  margin-inline-end: 7px;
+}
+
+/* support ticket css end */
+@media (max-width: 575.98px) {
+  .main-info .subject,
+  .single-message .user-details{
+    flex-direction: column;
+  }
+    .single-message .user-infos span.type{
+      margin-top: 0;
+    }
+}
+
+.form-control[type="file"] {
+  height: auto;
+}
+.support-user-img{
+  max-height: 60px;
+}
